@@ -67,6 +67,7 @@ public class CatDrawing extends JPanel implements ActionListener {
         g2d.setColor(new Color(54, 54, 54));
         g2d.setStroke(new BasicStroke(2));
         g2d.drawLine(catX + 50, catY + 30, catX + 55, catY + 35);
+        g2d.drawLine(catX + 45, catY + 35, catX + 50, catY + 30);
     }
 
     public static void main(String[] args) {
